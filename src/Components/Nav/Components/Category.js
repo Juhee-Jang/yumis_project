@@ -5,10 +5,8 @@ import styled from "styled-components";
 function Category() {
   return (
     <WrapCategory>
-      <Link>
-        <Icon src={CategoryIcon} alt="categoryIcon" />
-        카테고리
-      </Link>
+      <Icon src={CategoryIcon} alt="categoryIcon" />
+      카테고리
     </WrapCategory>
   );
 }
@@ -16,16 +14,13 @@ function Category() {
 export default Category;
 
 const WrapCategory = styled.div`
+  display: flex;
+  align-items: center;
+  padding: 0px 230px;
   height: 69px;
   font-size: 20px;
   font-weight: 500;
   border-top: 1px solid rgb(221, 221, 221);
-`;
-
-const Link = styled.a`
-  display: flex;
-  align-items: center;
-  padding: 20px 230px;
 `;
 
 const Icon = styled.img`
