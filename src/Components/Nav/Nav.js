@@ -1,10 +1,12 @@
 import React from "react";
-import Category from "./Components/Category/Category";
+import NavMain from "./Components/NavMain";
+import Category from "./Components/Category";
 import styled from "styled-components";
 
 function Nav() {
   return (
     <WrapNav>
+      <NavMain />
       <Category />
     </WrapNav>
   );

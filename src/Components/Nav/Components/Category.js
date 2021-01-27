@@ -1,5 +1,5 @@
 import React from "react";
-import CategoryIcon from "../../../../Image/Nav/categoryIcon.svg";
+import CategoryIcon from "../../../Image/Nav/categoryIcon.svg";
 import styled from "styled-components";
 
 function Category() {
