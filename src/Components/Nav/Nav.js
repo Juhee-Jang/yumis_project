@@ -15,7 +15,6 @@ function Nav() {
 export default Nav;
 
 const WrapNav = styled.div`
-  height: 266px;
   padding-top: 58px;
   border-bottom: 1px solid ${(props) => props.theme.borderColor};
 `;
