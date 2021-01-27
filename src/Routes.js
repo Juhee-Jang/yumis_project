@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Nav from "./Components/Nav/Nav";
-import Comment from "./Pages/Comment/Comment";
+import Mypage from "./Pages/Mypage/Mypage";
 import Footer from "./Components/Footer/Footer";
 
 class Routes extends React.Component {
@@ -10,7 +10,7 @@ class Routes extends React.Component {
       <Router>
         <Nav />
         <Switch>
-          <Route exact path="/" component={Comment} />
+          <Route exact path="/" component={Mypage} />
         </Switch>
         <Footer />
       </Router>
