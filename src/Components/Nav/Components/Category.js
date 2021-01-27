@@ -20,7 +20,7 @@ const WrapCategory = styled.div`
   height: 69px;
   font-size: 20px;
   font-weight: 500;
-  border-top: 1px solid rgb(221, 221, 221);
+  border-top: 1px solid ${(props) => props.theme.borderColor};
 `;
 
 const Icon = styled.img`
