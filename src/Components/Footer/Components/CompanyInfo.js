@@ -29,10 +29,20 @@ export default CompanyInfo;
 const WrapCompanyInfo = styled.div`
   display: flex;
   margin-top: 43px;
+
+  @media screen and (max-width: 1000px) {
+    flex-direction: column;
+    width: 800px;
+    margin-bottom: 30px;
+  }
 `;
 
 const Event = styled.div`
   margin-right: 110px;
+
+  @media screen and (max-width: 1000px) {
+    margin-bottom: 30px;
+  }
 `;
 
 const EventTitle = styled.p`
