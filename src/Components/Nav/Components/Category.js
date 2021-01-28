@@ -6,7 +6,7 @@ function Category() {
   return (
     <WrapCategory>
       <Icon src={CategoryIcon} alt="categoryIcon" />
-      카테고리
+      <CategoryText>카테고리</CategoryText>
     </WrapCategory>
   );
 }
@@ -21,10 +21,19 @@ const WrapCategory = styled.div`
   font-size: 20px;
   font-weight: 500;
   border-top: 1px solid ${(props) => props.theme.borderColor};
+
+  @media screen and (max-width: 1000px) {
+    padding: 0px;
+  }
 `;
 
 const Icon = styled.img`
   width: 20px;
   height: 20px;
   margin-right: 10px;
+`;
+
+const CategoryText = styled.div`
+  display: inline-block;
+  width: 150px;
 `;

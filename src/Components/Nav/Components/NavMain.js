@@ -37,6 +37,10 @@ const WrapProfile = styled.div`
   justify-content: flex-end;
   margin-bottom: 59px;
   padding: 0 121px;
+
+  @media screen and (max-width: 1000px) {
+    padding: 0px;
+  }
 `;
 
 const SignUp = styled.a`
@@ -52,7 +56,12 @@ const SignIn = styled(SignUp.withComponent("a"))`
 const WrapIcons = styled.div`
   display: flex;
   justify-content: space-between;
-  padding: 20px 230px;
+  margin: 20px auto;
+  width: 1050px;
+
+  @media screen and (max-width: 1000px) {
+    width: 100%;
+  }
 `;
 
 const CloverLogo = styled.a`

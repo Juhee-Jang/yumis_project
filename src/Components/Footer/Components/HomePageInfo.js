@@ -43,7 +43,11 @@ function HomePageInfo() {
 
 export default HomePageInfo;
 
-const WrapHomePageInfo = styled.div``;
+const WrapHomePageInfo = styled.div`
+  @media screen and (max-width: 1000px) {
+    width: 100%;
+  }
+`;
 
 const CloverLogo = styled.img`
   width: 180px;

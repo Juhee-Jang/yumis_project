@@ -36,6 +36,10 @@ export default Mypage;
 const WrapMypage = styled.div`
   margin: 0px auto;
   width: 880px;
+
+  @media screen and (max-width: 1000px) {
+    width: 100%;
+  }
 `;
 
 const Title = styled.p`
